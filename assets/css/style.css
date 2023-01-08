@@ -6,7 +6,7 @@ body {background-color: #d9dcd6;}
 /*selects h1 block element from html*/
 h1 {display: inline-block;font-size: 48px;}
 /*slectes the dis inside a class*/
-.header div {padding-top: 15px;margin-right: 20px;float: right;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 20px;}
+.header nav {padding-top: 15px;margin-right: 20px;float: right;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 20px;}
 /*changes how the list id displayed and selects any item in a list.*/
 li {display: inline-block;margin-left: 25px;}
 /*allows you to change Hyperlink.Attributes.*/
@@ -16,22 +16,26 @@ p {font-size: 16px;}
 /*Lets you change image or image size or dimensions.*/
 .images {height: 800px;width: 100%;margin-bottom: 25px;background-image: url("../images/digital-marketing-meeting.jpg");background-size: cover;background-position: center;}
 
+/* Float the element to the left and add a right margin of 25 pixels */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Float the element to the right and add a left margin of 25 pixels */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Set the width of the element to 75% and display it as an inline block element */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Add 20 pixels of right margin, 20 pixels of padding, and clear both floats */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -43,55 +47,27 @@ p {font-size: 16px;}
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Styles for the .benefit-lead element */
+.benefit-Attributes {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Add a bottom margin of 10 pixels and center the text in the .benefit-lead h3 element */
+.benefit-Attributes h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Display the image as a block element and center it within the .benefit-lead element */
+.benefit-Attributes img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Add a bottom margin of 20 pixels, 50 pixels of padding, a height of 300 pixels, and a blue background color with white text color */
+.mainstyleone {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -100,58 +76,14 @@ p {font-size: 16px;}
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Set the maximum height of the image to 200 pixels */
+.mainstyleone img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Add 30 pixels of padding and clear both floats */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
